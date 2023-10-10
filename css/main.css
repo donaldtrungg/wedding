@@ -759,6 +759,8 @@ ul.social-links li a:hover i {
 .story-image:focus {
   display: block;
   max-width: 320px;
+  max-height: 320px;
+
   margin: 0 auto;
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
