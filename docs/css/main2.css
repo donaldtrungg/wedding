@@ -1196,7 +1196,7 @@ ul.social-links li a:hover i {
 
 @media only screen and (max-width: 420px) {
   .about-us-block .top-block {
-    min-height: 110px;
+    min-height: 140px;
   }
 
   .about-us-block .name h2 {
