@@ -503,7 +503,10 @@ p.intro {
   background-attachment: scroll;
   background-position: center center !important;
   background-repeat: no-repeat;
-  background-image: url(../images/footer_photo.jpeg);
+}
+
+.footer-image-block {
+  background-image: url(../images/footer_photo.jpeg) !important;
 }
 
 .hs-mask,
