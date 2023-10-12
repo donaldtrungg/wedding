@@ -484,6 +484,10 @@ p.intro {
   position: relative;
 }
 
+.hs-image-block {
+  background-image: url(../images/main_photo_2.jpg);
+}
+
 .hs-image-block,
 .footer-image-block {
   position: absolute;
@@ -497,7 +501,7 @@ p.intro {
   background-size: cover;
   -webkit-background-size: cover;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center center !important;
   background-repeat: no-repeat;
 }
 
@@ -867,6 +871,10 @@ ul.social-links li a:hover i {
   font-weight: 300;
 }
 
+.event-photo {
+  height: 345px;
+}
+
 .event-block:last-child .event-info {
   margin-bottom: 0;
 }
@@ -1137,8 +1145,15 @@ ul.social-links li a:hover i {
 }
 
 @media only screen and (max-width: 769px) {
+  .event-photo {
+    height: 230px;
+  }
+  .hs-image-block {
+    background-image:  url(../images/main_photo_2.jpeg);
+  }
+
   .hs-section-title {
-    margin: 70px 0;
+    margin: 110px 0;
   }
 
   .hs-section-title h1 {
