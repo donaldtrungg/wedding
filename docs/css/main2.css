@@ -503,6 +503,7 @@ p.intro {
   background-attachment: scroll;
   background-position: center center !important;
   background-repeat: no-repeat;
+  background-image: url(../images/footer_photo.jpeg);
 }
 
 .hs-mask,
@@ -1149,7 +1150,7 @@ ul.social-links li a:hover i {
     height: 230px;
   }
   .hs-image-block {
-    background-image:  url(../images/main_photo_2.jpeg);
+    background-image: url(../images/main_photo_2.jpeg);
   }
 
   .hs-section-title {
